@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-Data Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid black;
+            padding-bottom: 10px;
+        }
+        .section-title {
+            background-color: black;
+            color: white;
+            padding: 5px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        td {
+            padding: 10px;
+            border: 1px solid black;
+            vertical-align: top;
+        }
+        input[type="text"], input[type="date"], input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: none; /* Remove the border */
+    border-bottom: 1px solid black; /* Add an underline */
+    box-sizing: border-box;
+    outline: none; /* Remove the outline when the input is focused */
+}
+
+        .small-input {
+            width: 100px;
+        }
+        .signature-section {
+            text-align: right;
+            margin-top: 30px;
+        }
+        .signature-section input {
+            width: 250px;
+        }
+        .label {
+    font-weight: bold;
+    text-decoration: underline;
+    border: none; 
+}
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>BIO-DATA</h1>
+
+    <!-- Personal Data Section -->
+    <div class="section-title">PERSONAL DATA</div>
+    <table>
+        <tr>
+            <td class="label">Position Desired:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Name:</td>
+            <td><input type="text"></td>
+            <td class="label">Date:</td>
+            <td><input type="date" class="small-input"></td>
+        </tr>
+        <tr>
+            <td class="label">City Address:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Provincial Address:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Telephone:</td>
+            <td><input type="text"></td>
+            <td class="label">Cellphone:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">E-mail Address:</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Date of Birth:</td>
+            <td><input type="date"></td>
+            <td class="label">Birth Place:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Civil Status:</td>
+            <td><input type="text"></td>
+            <td class="label">Citizenship:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Spouse:</td>
+            <td><input type="text"></td>
+            <td class="label">Occupation:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Father's Name:</td>
+            <td><input type="text"></td>
+            <td class="label">Occupation:</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Mother's Name:</td>
+            <td><input type="text"></td>
+            <td class="label">Occupation:</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <!-- Educational Background Section -->
+    <div class="section-title">EDUCATIONAL BACKGROUND</div>
+    <table>
+        <tr>
+            <td class="label">Elementary</td>
+            <td><input type="text"></td>
+            <td class="label">Year Graduated</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td class="label">High School</td>
+            <td><input type="text"></td>
+            <td class="label">Year Graduated</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td class="label">College</td>
+            <td><input type="text"></td>
+            <td class="label">Year Graduated</td>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td class="label">Degree Received</td>
+            <td colspan="3"><input type="text"></td>
+        </tr>
+    </table>
+
+    <!-- Employment Record Section -->
+    <div class="section-title">EMPLOYMENT RECORD</div>
+    <table>
+        <tr>
+            <td class="label">Company Name</td>
+            <td><input type="text"></td>
+            <td class="label">From</td>
+            <td><input type="date"></td>
+            <td class="label">To</td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td class="label">Company Name</td>
+            <td><input type="text"></td>
+            <td class="label">From</td>
+            <td><input type="date"></td>
+            <td class="label">To</td>
+            <td><input type="date"></td>
+        </tr>
+    </table>
+
+    <!-- Character Reference Section -->
+    <div class="section-title">CHARACTER REFERENCE</div>
+    <table>
+        <tr>
+            <td class="label">Name</td>
+            <td><input type="text"></td>
+            <td class="label">Position</td>
+            <td><input type="text"></td>
+            <td class="label">Contact No.</td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td class="label">Name</td>
+            <td><input type="text"></td>
+            <td class="label">Position</td>
+            <td><input type="text"></td>
+            <td class="label">Contact No.</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+
+    <!-- IDs Section -->
+    <div class="section-title">IDENTIFICATION DETAILS</div>
+    <table>
+        <tr>
+        <td class="label">Res. Cert. No.</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="label">Issued at</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="label">Issued on</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="label">SSS</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="label">TIN</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="label">NBI No.</td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td class="label">Passport No.</td>
+        <td><input type="text"></td>
+    </tr>
+</table>
+
+<!-- Signature and Declaration Section -->
+<div class="declaration-section">
+    <p>
+        I hereby certify that the above information is true and correct
+        to the best of my knowledge and belief. I also understand
+        that any misrepresentation will be considered reason for
+        withdrawal of an offer or subsequent dismissal if employed.
+    </p>
+    <div class="signature-section">
+        <label>______________________________</label><br>
+        Applicant's Signature
+    </div>
+</div>
+</div>
+</body>
+</html>
